@@ -33,7 +33,7 @@ const CATS = [
     title: "Demir-Çelik Hurda",
     metaTitle: "Bursa Demir-Çelik Hurda Alımı",
     desc: "İnşaat demiri, sac, profil, makine ve döküm hurdanızı Nilüfer merkezli ekibimiz yerinde tartıp güncel piyasa fiyatı üzerinden değerlendiriyor.",
-    img: "bursa-demir-celik-hurdasi.webp",
+    img: "bursa-demir-celik-hurdasi.avif",
     lead: "Demir-çelik, hurda piyasasının en yüksek hacimli kalemidir; doğru tasnif ve doğru tartım burada da fark yaratır. Ataevler Hurda Metal olarak demir-çelik hurdanızı yerinde inceleyip türüne göre en adil fiyatı sunuyoruz.",
     types: [
       ["İnşaat demiri:", "Nervürlü beton demiri, hurda inşaat çeliği."],
@@ -50,7 +50,7 @@ const CATS = [
     title: "Bakır Hurda",
     metaTitle: "Bursa Bakır Hurda Alımı",
     desc: "Temiz bakır, kablo bakırı, radyatör ve sarı pirinç hurdanızı Nilüfer merkezli ekibimiz en yüksek güncel fiyattan değerlendiriyor.",
-    img: "bursa-bakir-hurdasi.webp",
+    img: "bursa-bakir-hurdasi.avif",
     lead: "Bakır hurdası piyasada en yüksek değere sahip metallerden biridir; bu yüzden doğru sınıflandırma ve doğru tartım büyük fark yaratır. Ataevler Hurda Metal olarak bakır hurdanızı yerinde inceleyip türüne göre en adil fiyatı sunuyoruz.",
     types: [
       ["Temiz bakır (1. hamur):", "Boru, levha ve tel bakır artıkları."],
@@ -67,7 +67,7 @@ const CATS = [
     title: "Alüminyum Hurda",
     metaTitle: "Bursa Alüminyum Hurda Alımı",
     desc: "Doğrama profili, jant, döküm ve levha alüminyum hurdanızı Nilüfer merkezli ekibimiz her ölçekte yerinde tartıp değerlendiriyor.",
-    img: "bursa-aluminyum-hurdasi.webp",
+    img: "bursa-aluminyum-hurdasi.avif",
     lead: "Alüminyum, hafifliği ve geri dönüştürülebilirliği sayesinde en çok aranan hurda metallerden biri. Ataevler Hurda Metal olarak alüminyum hurdanızı türüne göre ayırıp en adil fiyattan alıyoruz.",
     types: [
       ["Doğrama profili:", "PVC/alüminyum pencere-kapı doğrama artığı."],
@@ -84,7 +84,7 @@ const CATS = [
     title: "Kablo Hurda",
     metaTitle: "Bursa Kablo Hurda Alımı",
     desc: "Elektrik, enerji ve data kablolarınızı içerdiği bakır/alüminyum oranına göre değerlendiriyor, Nilüfer merkezli ekibimizle adresinize geliyoruz.",
-    img: "bursa-kablo-hurdasi.webp",
+    img: "bursa-kablo-hurdasi.avif",
     lead: "Kablo hurdası, içerdiği bakır veya alüminyum oranına göre değerlendirilir. Ataevler Hurda Metal olarak her tür ve ölçekte kablo hurdanızı yerinde tartıp adil fiyattan alıyoruz.",
     types: [
       ["Elektrik tesisat kablosu:", "NYA, NYM ve benzeri bina içi kablolar."],
@@ -101,7 +101,7 @@ const CATS = [
     title: "Beyaz Eşya Hurdası",
     metaTitle: "Bursa Beyaz Eşya Hurdası Alımı",
     desc: "Buzdolabı, çamaşır makinesi, bulaşık makinesi ve fırınınızı adresinizden alıyor, Nilüfer merkezli ekibimizle kapıda ödeme yapıyoruz.",
-    img: "bursa-beyaz-esya.webp",
+    img: "bursa-beyaz-esya.avif",
     lead: "Ömrünü tamamlamış beyaz eşyanız evinizde/işyerinizde yer kaplamasın. Ataevler Hurda Metal olarak beyaz eşyanızı adresinizden alıp, içerdiği metal (çelik, bakır, alüminyum) değerine göre öderiz.",
     types: [
       ["Buzdolabı:", "Her boy ve model buzdolabı."],
@@ -118,7 +118,7 @@ const CATS = [
     title: "Klima Hurdası",
     metaTitle: "Bursa Klima Hurdası Alımı",
     desc: "Split, salon tipi ve VRF klimalarınızın iç/dış ünitesini söküp bakır/alüminyum radyatör değerine göre alıyoruz.",
-    img: "bursa-is-makinesi.webp",
+    img: "bursa-is-makinesi.avif",
     lead: "Klima üniteleri, içerdiği bakır radyatör ve kompresör nedeniyle değerli bir hurda kalemidir. Ataevler Hurda Metal olarak klimanızın sökümünü de üstlenip, yerinde tartıp ödemesini yapıyoruz.",
     types: [
       ["Split klima:", "İç ve dış ünite birlikte veya ayrı ayrı."],
@@ -135,7 +135,7 @@ const CATS = [
     title: "Akü Hurdası",
     metaTitle: "Bursa Akü Hurdası Alımı",
     desc: "Araç, iş makinesi ve UPS akülerinizi kurşun içeriğine göre değerlendirip Nilüfer merkezli ekibimizle yerinde ödeme yapıyoruz.",
-    img: "bursa-aku-hurdasi.webp",
+    img: "bursa-aku-hurdasi.avif",
     lead: "Akü hurdası, içerdiği kurşun ve asit nedeniyle özel bir değerlendirme gerektirir. Ataevler Hurda Metal olarak her tür aküyü mevzuata uygun şekilde teslim alıp, kilogram bazında adil fiyattan ödüyoruz.",
     types: [
       ["Araç aküsü:", "Binek ve ticari araç aküleri."],
