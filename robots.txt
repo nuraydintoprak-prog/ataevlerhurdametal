@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ataevlerhurdametal.com.tr/sitemap.xml

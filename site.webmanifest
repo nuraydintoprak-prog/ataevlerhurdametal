@@ -1,0 +1,9 @@
+{
+  "name": "Ataevler Hurda Metal",
+  "short_name": "Ataevler Hurda Metal",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f6f5f2",
+  "theme_color": "#20262b",
+  "lang": "tr"
+}
