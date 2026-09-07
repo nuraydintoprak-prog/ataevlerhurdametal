@@ -195,6 +195,7 @@ function page(cat) {
 <link rel="preload" href="fonts/poppins-latin-ext-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="fonts/poppins-latin-ext-700.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/style.css">
+<link rel="preload" as="image" href="img/ataevler-logo.avif" fetchpriority="high">
 <link rel="preload" as="image" href="img/${cat.img}" fetchpriority="high">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Service","serviceType":"${cat.title} Alımı","provider":{"@type":"RecyclingCenter","name":"Ataevler Hurda Metal","telephone":"${PHONE_TEL}"},"areaServed":"Bursa","url":"${DOMAIN}/${cat.slug}.html"}</script>
 <!-- Google Tag Manager -->
@@ -221,10 +222,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header class="header">
   <div class="container nav">
     <a href="index.html" class="logo" aria-label="Ataevler Hurda Metal ana sayfa">
-      <span style="display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.3rem;color:#20262b">
-        <svg viewBox="0 0 24 24" width="34" height="34" fill="none" stroke="#c1440e" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
-        Ataevler <span style="color:#c1440e">Hurda Metal</span>
-      </span>
+      <img src="img/ataevler-logo.avif" alt="Ataevler Hurda Metal" width="560" height="154">
     </a>
     <ul class="menu">
       <li><a href="index.html">Anasayfa</a></li>
