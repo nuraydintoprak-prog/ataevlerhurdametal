@@ -109,11 +109,18 @@
     }
 
     /* ---------- Fiyat teklifi formu -> WhatsApp ---------- */
+    function telE164(v) {
+      var d = (v || '').replace(/\D/g, '');
+      if (!d) return '';
+      if (d.charAt(0) === '0') d = d.slice(1);
+      if (d.indexOf('90') === 0 && d.length > 10) return '+' + d;
+      return '+90' + d;
+    }
     document.querySelectorAll('form[data-wa]').forEach(function (form) {
       form.addEventListener('submit', function (e) {
         e.preventDefault();
         var g = function (n) { var el = form.querySelector('[name="' + n + '"]'); return el ? el.value.trim() : ''; };
-        var ad = g('ad'), tel = g('tel'), hizmet = g('hizmet'),
+        var ad = g('ad'), tel = g('tel'), hizmet = g('hizmet'), eposta = g('eposta'),
             miktar = g('miktar'), adres = g('adres'), mesaj = g('mesaj');
         if (!ad || !tel) {
           alert('Lütfen ad ve telefon bilgisini giriniz.');
@@ -122,10 +129,19 @@
         var t = '*Yeni Bilgi Talebi - Ataevler Hurda Metal*%0A%0A';
         t += '👤 Ad Soyad: ' + ad + '%0A';
         t += '📞 Telefon: ' + tel + '%0A';
+        if (eposta) t += '✉️ E-posta: ' + eposta + '%0A';
         if (hizmet) t += '♻️ Hurda Türü: ' + hizmet + '%0A';
         if (miktar) t += '⚖️ Tahmini Miktar: ' + miktar + '%0A';
         if (adres) t += '📍 Adres/İlçe: ' + adres + '%0A';
         if (mesaj) t += '📝 Not: ' + mesaj + '%0A';
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({
+          event: 'teklif_formu_gonderildi',
+          user_data: {
+            phone_number: telE164(tel),
+            email: eposta || undefined
+          }
+        });
         window.open('https://wa.me/' + WA + '?text=' + encodeURIComponent(decodeURIComponent(t)), '_blank');
         form.reset();
         var btn = form.querySelector('[type="submit"]');
