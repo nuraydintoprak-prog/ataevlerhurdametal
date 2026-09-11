@@ -72,7 +72,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-T8DCN47Q');</script>
 <!-- End Google Tag Manager -->
 <script src="https://anticlick.com.tr/anticlick.js"
-  data-key="cf_live_531ba780982eda24a3a0574435221b3ea9da"
+  data-key="cf_live_f580c231e9cf3db24480e6218217679832b8"
   data-campaign="yaz-kampanyasi"
   data-protect-forms="true"
   data-protect-gtag="true"
